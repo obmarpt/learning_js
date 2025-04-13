@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="functions.js"></script>
 
 </head>
+
 <body>
-    <h1>Bem-vindo ao meu site</h1>
-    <p>Este é um parágrafo</p>
+
+
+    <h1>Learning JavaScript</h1>
+    <h2>Login Page</h2>
+
+    <div class="login">
+        
+        <form id="myForm" class="myForm">
+            <label for="uname">Username: <input type="" id="uname" name="uname" ><br><br></label><br>
+            
+            <label for="password">Password: <input type="password" id="password" name="password" ><br><br></label><br>
+            
+            <input class="buttonLogin" type="submit" value="Submit">
+          </form> 
+          <div id="mensageLogin"></div>
+    
+    
+    </div>
+    <div id="aprovedLogin" class="aprovedLogin"><p>✅ Login aprovado! Redirecionando...</p></div>
+
 </body>
+
 </html>
