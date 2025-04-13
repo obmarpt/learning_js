@@ -1,0 +1,125 @@
+.container {
+    position: relative;
+    top: -160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    margin-top: 200px;
+    gap: 20px;
+
+
+}
+
+.button1 {
+    background-color: black;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #000000;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    margin-bottom: auto
+}
+
+h2 {
+    color: rgb(192, 177, 177);
+    text-align: center;
+    font-size: 30px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    margin-top: 30px;
+
+}
+body{
+    
+    background-color: #340909;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.button3 {
+    position: relative;
+    
+    color: white;
+    padding: 15px 32px;
+    top: -100px;
+    background-color: #6e6e6e;
+    /* Green */
+    text-align: center;
+    font-size: 30px;
+
+    font-family: 'Courier New', Courier, monospace;
+
+
+     
+}
+
+.button3 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.leftsquare {
+
+    border: 4px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    background-color: red;
+
+}
+
+.rightsquare {
+
+    border: 4px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    background-color: red;
+
+}
